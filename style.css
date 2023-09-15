@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'montserrat';
+    src: url(Montserrat-Bold.ttf);
+    font-size: normal;
+}
+@font-face {
+    font-family: 'montserrat';
+    src: url(Montserrat-Medium.ttf);
+    font-weight: 200;
+    font-size: bold;
+}
+@font-face {
+    font-family: 'montserrat';
+    src: url(Montserrat-Regular.ttf);
+    font-weight: 300;
+    font-size: normal;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: #77aff9;
+    width: 410px;
+    height: 731px;
+    border-radius: 40px;
+}
+.texto{
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 300px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 80px;
+    color: #2c4674;
+}
+h1{
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 100;
+    display: flex;
+    padding: 0cm 0cm 0cm 5.5cm;
+    position: relative;
+    top: 90px;
+    color: #ffff;
+}
+img{
+    bottom: 10px;
+    width: 410px;
+    height: 340px;
+    position: absolute;
+}
+.texto_centro{
+    display: flex;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 100;
+    padding: 120px 40px 0px 60px ;
+}
+.flecha{
+    background-color: #4a6dad;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    left: 180px;
+    bottom: 0px;
+}
+.puntos{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+} 
